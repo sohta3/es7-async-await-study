@@ -1,0 +1,15 @@
+{
+  "name": "es7-async-await-study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel --experimental app/js/app.js -o dist/js/app.js ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^5.8.23"
+  }
+}
